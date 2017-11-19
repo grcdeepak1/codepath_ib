@@ -44,5 +44,13 @@ int main(int argc, const char * argv[]) {
     }
     printf("\n");
     
+    //subtract
+    listnode *list = NULL, *newlist = NULL;
+    printf("\nsubtract list:\n");
+    list = create_list();
+    print_list(list);
+    newlist = subtract(list);
+    print_list(newlist);
+    
     return 0;
 }

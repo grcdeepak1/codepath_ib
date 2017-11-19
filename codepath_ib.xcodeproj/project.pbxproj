@@ -12,6 +12,7 @@
 		003064961FC215AB004D16E9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 003064941FC215AB004D16E9 /* main.c */; };
 		003064981FC21BA7004D16E9 /* kth_smallest.c in Sources */ = {isa = PBXBuildFile; fileRef = 003064971FC21BA7004D16E9 /* kth_smallest.c */; };
 		0030649A1FC220F3004D16E9 /* next_greater.c in Sources */ = {isa = PBXBuildFile; fileRef = 003064991FC220F3004D16E9 /* next_greater.c */; };
+		0030649F1FC244B4004D16E9 /* subtract.c in Sources */ = {isa = PBXBuildFile; fileRef = 0030649E1FC244B4004D16E9 /* subtract.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,7 @@
 		003064951FC215AB004D16E9 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		003064971FC21BA7004D16E9 /* kth_smallest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kth_smallest.c; sourceTree = "<group>"; };
 		003064991FC220F3004D16E9 /* next_greater.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = next_greater.c; sourceTree = "<group>"; };
+		0030649E1FC244B4004D16E9 /* subtract.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = subtract.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				003064951FC215AB004D16E9 /* main.h */,
 				003064971FC21BA7004D16E9 /* kth_smallest.c */,
 				003064991FC220F3004D16E9 /* next_greater.c */,
+				0030649E1FC244B4004D16E9 /* subtract.c */,
 			);
 			path = codepath_ib;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 				003064901FC21353004D16E9 /* prettyprint.c in Sources */,
 				003064981FC21BA7004D16E9 /* kth_smallest.c in Sources */,
 				003064961FC215AB004D16E9 /* main.c in Sources */,
+				0030649F1FC244B4004D16E9 /* subtract.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
