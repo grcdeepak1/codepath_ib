@@ -16,3 +16,4 @@
 int ** prettyPrint(int N, int *number_of_rows, int *number_of_columns);
 int numRange(int* A, int n1, int B, int C);
 int kthsmallest(int* A, int n1, int k);
+int* nextGreater(int* A, int n1, int *len1);

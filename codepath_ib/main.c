@@ -33,5 +33,16 @@ int main(int argc, const char * argv[]) {
     kth = kthsmallest(B, 5, 3);
     printf("\nkthsmallest : %d\n", kth);
     
+    // nextGreater
+    int C[] = {4, 5, 2, 10};
+    int *pAns, ansLen;
+    pAns = nextGreater(C, 4, &ansLen);
+    pArr = prettyPrint(N, &numRows, &numCols);
+    printf("\nnextGreater:\n");
+    for (int i=0; i< ansLen; i++) {
+            printf("%d ", pAns[i]);
+    }
+    printf("\n");
+    
     return 0;
 }
