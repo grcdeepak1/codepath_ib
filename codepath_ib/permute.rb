@@ -5,9 +5,9 @@ class Solution
         #indent(chosen.length);
         #p "permuteHelper #{a}, #{chosen}"
         if (a.empty?)
-            if (alreadyPrinted.include?(chosen) == false)
+            if (alreadyPrinted[chosen] != 1)
                 #p chosen
-                alreadyPrinted << chosen.clone
+                alreadyPrinted[chosen.clone] = 1
             end
         else
             # choose/explore/unchoose
@@ -33,9 +33,9 @@ class Solution
     end
     
     def permute(a)
-        alreadyPrinted = [];
-        permuteHelper(a, [], alreadyPrinted);
-        return alreadyPrinted;
+        alreadyPrintedHash = {};
+        permuteHelper(a, [], alreadyPrintedHash);
+        return alreadyPrintedHash.keys;
     end
     
     def indent(n)
@@ -44,5 +44,5 @@ class Solution
 end
 
 s = Solution.new
-a = [1, 2, 3];
+a = [1, 2, 3, 1];
 p s.permute(a);
