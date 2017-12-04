@@ -20,7 +20,7 @@ int ** prettyPrint(int N, int *number_of_rows, int *number_of_columns);
 int numRange(int* A, int n1, int B, int C);
 int kthsmallest(int* A, int n1, int k);
 int* nextGreater(int* A, int n1, int *len1);
-listnode* create_list();
+listnode* create_list(void);
 listnode* subtract(listnode* A);
 void print_list(listnode* A);
 #endif /* main_h */
