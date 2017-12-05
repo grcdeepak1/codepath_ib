@@ -17,4 +17,4 @@ def colorful(num):
     return True
 
 
-print(colorful(123))
+print(anagrams(cat,dog,god,tca))
