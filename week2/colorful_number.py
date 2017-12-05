@@ -10,7 +10,7 @@ def colorful(num):
     color = {}
     for i in range(0,l+1):
         for j in range(i+1,l+1):
-            if (prod(num[i:j]) in color.keys()):
+            if (color.get(prod(num[i:j])) != None):
                 return False
             else:
                 color[prod(num[i:j])] = num[i:j]
