@@ -8,7 +8,7 @@ class Solution:
             for i in range(0, len(A)):
                 #Choose
                 n = A[i]
-                A.remove(n)
+                del A[i]
                 chosen.append(n)
 
                 #Explore
